@@ -37,7 +37,7 @@
             // 
             recordButton.Location = new Point(12, 12);
             recordButton.Name = "recordButton";
-            recordButton.Size = new Size(141, 85);
+            recordButton.Size = new Size(193, 85);
             recordButton.TabIndex = 0;
             recordButton.Text = "Start Recording";
             recordButton.UseVisualStyleBackColor = true;
@@ -57,7 +57,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(172, 110);
+            ClientSize = new Size(217, 110);
             Controls.Add(resultText);
             Controls.Add(recordButton);
             Icon = (Icon)resources.GetObject("$this.Icon");
