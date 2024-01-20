@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("7d791e7e-8388-4995-af76-5def4266641f")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Qapla.Whisper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc77d2f77d53515d94d4cb5b852182b6a25b8d96")]
 [assembly: System.Reflection.AssemblyProductAttribute("Qapla.Whisper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Qapla.Whisper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
