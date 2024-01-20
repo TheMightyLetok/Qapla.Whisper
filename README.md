@@ -20,46 +20,26 @@ Before you get started, ensure you have the following prerequisites in place:
 Installation
 
     Clone this repository to your local machine:
-
-    bash
-
-git clone https://github.com/TheMightyLetok/Qapla.Whisper.git
-
-Navigate to the project directory:
-
-bash
-
-cd Qapla.Whisper
-
-Open the project using your preferred development environment.
-
-Add your OpenAI API key to the appsettings.json file:
-
-json
+    git clone https://github.com/TheMightyLetok/Qapla.Whisper.git
+    cd Qapla.Whisper
+    Open the project using your preferred development environment.
+    Add your OpenAI API key to the appsettings.json, or secrets.json file:
 
     {
       "OpenAIApiKey": "YOUR_API_KEY_HERE"
     }
 
     Build the application.
-
     Launch the application.
 
 Usage
 
     Start the Qapla.Whisper application.
-
-    Click the "Start Listening" button to initiate the audio transcription process.
-
+    Click the "Start RecordingListening" button to initiate the audio transcription process.
     Speak into your microphone to capture the audio you want to transcribe.
-
+    Click "Stop Recording" to stop the audio capture and initiate the transcription process.
     The transcribed text will be automatically copied to your clipboard.
-
     You can now paste the copied text into any text editor, document, or application as needed.
-
-Troubleshooting
-
-    If you encounter any difficulties or have questions, please refer to the FAQ for comprehensive troubleshooting instructions.
 
 License
 
@@ -68,3 +48,5 @@ Acknowledgments
 
     Special thanks to OpenAI for providing the Whisper API.
     The inspiration for this project arose from the demand for rapid and accurate audio-to-text transcription.
+
+    Thanks the https://qapla.pro for providing the util!

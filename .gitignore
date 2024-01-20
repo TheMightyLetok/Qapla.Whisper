@@ -79,8 +79,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # Exclude bin and obj directories
-/bin/
-/obj/
 /.vs
 /Qapla.Whisper/bin/Debug/net8.0-windows
 /Qapla.Whisper/obj
